@@ -17,7 +17,7 @@ a {
 
 
 p {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 li {
@@ -30,23 +30,34 @@ a.active, a:hover {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 h3.page-title{
   font-weight: 800;
-  font-size: 147px;
+  font-size: 100px;
+  line-height: 1em;
   color: $color_black;
   letter-spacing: -5.61px;
   position: fixed;
-  top: -79px;
+  top: -0.3em;
   font-weight: 900;
   margin-top: 0;
+  @media(max-width: 992px){
+    font-size: 65px;
+    letter-spacing: -3px;
+  }
   .page-date {
     font-size: 20px;
     display: inline-block;
     letter-spacing: 0;
     margin-left: 1em;
+    line-height: 1em;
+  }
+  .page-cat{
+    letter-spacing: 0;
+    line-height: 1em;
+    text-transform: capitalize;
   }
 }
 
@@ -96,7 +107,7 @@ Main Nav
 
   li {
     a {
-      font-size: 16px;
+      font-size: 14px;
       font-weight: normal;
       color: $color_black;
     }
