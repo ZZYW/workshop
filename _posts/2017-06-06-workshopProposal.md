@@ -1,25 +1,36 @@
 ---
 layout: clean
-permalink: /workshop-proposal
+permalink: /2017summerworkshop
 ---
 
-#### [Go back to zzyw homepage]({{ site.url }})
+#### for more information about the hosts Zhenzhen Qi & Yang Wang, [Go back to zzyw homepage](/)
 
 ----
 
 <div class="titleblock">
-    <h1>2017 Summer New Media Art Proposal [draft]<br>2017 夏季 新媒体艺术工作坊 策划书 [草稿]</h1>
+    <div class="content">
+    <h1>2017 Summer New Media Art Workshop Proposal [draft]</h1>
+    <h2>Series 01: Generative Arts</h2>
+    <h1>2017 夏季 新媒体艺术工作坊 策划书 [草稿]</h1>
+    <h2>系列之一： 生成艺术</h2>
+    </div>
 </div>
 
 -----
 
-## About the host
+## About the Workshop Leader
 
 ## 关于工作坊主讲人
 
 ----
 
 **Zhenzhen Qi 漆贞贞**
+
+
+> New Media Artist, New Media Arts Educator
+
+> 新媒体艺术人，新媒体艺术教育人
+
 
 <img alt="zzq picture" width="160px" src="../dist/images/workshop/zhenzhenperforming.png"/>
 
