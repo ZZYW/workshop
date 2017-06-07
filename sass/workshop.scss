@@ -1,0 +1,15 @@
+.titleblock {
+    background-image: url(/dist/images/workshop/generativearts02.jpg);
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    background-position: center center;
+    h1 {
+        color: white;
+        left: 70px;
+        // font-size: 3em;
+        bottom: 30px;
+        z-index: 10;
+        position: absolute;
+    }
+}

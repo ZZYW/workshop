@@ -13,7 +13,9 @@ body {
   min-height: 100vh;
 }
 
-
+img {
+    max-width: 100%;
+}
 a {
   font-style: italic;
   color: $link-color;
