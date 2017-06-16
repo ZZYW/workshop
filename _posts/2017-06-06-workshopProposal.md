@@ -38,114 +38,124 @@ permalink: /2017summerworkshop
 <h2 id="schedule-outline">Schedule Outline</h2>
 <hr />
 <p><img src="dist/images/workshop/32028846611_3e5eaef729_b.jpg"/></p>
+
+
 <p>工作坊将持续两天，周六 &amp; 周日 两天</p>
-<h3 id="part-1-workshops---">Part 1: Workshops 讲座 &amp; 工作坊</h3>
-<!-- <p><img src="dist/images/workshop/tumblr_n0tyrtuVXO1riri2uo7_r1_1280.gif" alt="sample image" class="sm-image"/></p> -->
-<p><strong>讲座：What is New Media Arts? 什么是新媒体艺术</strong></p>
-<ul>
-    <li>
-        <p>什么是新媒体艺术？</p>
-    </li>
-    <li>
-        <p>新媒体艺术与传统艺术有何不同？</p>
-    </li>
-    <li>
-        <p>新媒体带来的创作可能性</p>
-    </li>
-    <li>
-        <p>有趣的新媒体作品</p>
-    </li>
-</ul>
-<p><img src="dist/images/workshop/l_4.png" alt="sample image" class="sm-image"/></p>
-<p><strong>Workshop: Generative Arts 工作坊：生成艺术</strong></p>
-<ul>
-    <li>
-        <p>Basics of 编程基本</p>
-    </li>
-    <li>
-        <p>Pixel manipulation 像素控制</p>
-    </li>
-    <li>
-        <p>Particle system 粒子系统</p>
-    </li>
-    <li>
-        <p>L-System L系统</p>
-    </li>
-    <li>
-        <p>Vector field 向量场</p>
-    </li>
-    <li>
-        <p>Flocking</p>
-    </li>
-    <li>
-        <p>Web crawler 网络爬虫</p>
-    </li>
-    <li>
-        <p>Video scribe 划视频</p>
-    </li>
-</ul>
-<p><img src="dist/images/workshop/arduinos.jpg" alt="sample image" class="sm-image"/></p>
-<p><strong>Workshop: Physical Computing: Arduino</strong></p>
-<ul>
-    <li>
-        <p>INPUT:</p>
+<div class="row">
+    <div class="col-xs-12 col-sm-6">
+        <h3 id="part-1-workshops---">Part 1: Workshops 讲座 &amp; 工作坊</h3>
+        <!-- <p><img src="dist/images/workshop/tumblr_n0tyrtuVXO1riri2uo7_r1_1280.gif" alt="sample image" class="sm-image"/></p> -->
+        <p><strong>讲座：What is New Media Arts? 什么是新媒体艺术</strong></p>
         <ul>
             <li>
-                <p>Pulse Sensor 心跳感应器</p>
+                <p>什么是新媒体艺术？</p>
             </li>
             <li>
-                <p>Temperature Sensor 温度感应器</p>
+                <p>新媒体艺术与传统艺术有何不同？</p>
             </li>
             <li>
-                <p>Photoelectric sensor 光线感应器</p>
+                <p>新媒体带来的创作可能性</p>
             </li>
             <li>
-                <p>Infrared sensor 距离感应器</p>
+                <p>有趣的新媒体作品</p>
             </li>
         </ul>
-    </li>
-    <li>
-        <p>OUTPUT:</p>
+        <p><img src="dist/images/workshop/l_4.png" alt="sample image" class="sm-image"/></p>
+        <p><strong>Workshop: Generative Arts 工作坊：生成艺术</strong></p>
         <ul>
             <li>
-                <p>Speaker 声音输出</p>
+                <p>Basics of 编程基本</p>
             </li>
             <li>
-                <p>Motor 马达（物理运动）</p>
+                <p>Pixel manipulation 像素控制</p>
+            </li>
+            <li>
+                <p>Particle system 粒子系统</p>
+            </li>
+            <li>
+                <p>L-System L系统</p>
+            </li>
+            <li>
+                <p>Vector field 向量场</p>
+            </li>
+            <li>
+                <p>Flocking</p>
+            </li>
+            <li>
+                <p>Web crawler 网络爬虫</p>
+            </li>
+            <li>
+                <p>Video scribe 划视频</p>
             </li>
         </ul>
-    </li>
-</ul>
-<p><img src="dist/images/workshop/kinect samples.jpg" alt="sample image" class="sm-image"/></p>
-<p><strong>Workshop: Programming Interactivity 工作坊：编写交互性</strong></p>
-<ul>
-    <li>
-        <p>MS Kinect</p>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+
+        <p><img src="dist/images/workshop/arduinos.jpg" alt="sample image" class="sm-image"/></p>
+        <p><strong>Workshop: Physical Computing: Arduino</strong></p>
         <ul>
             <li>
-                <p>Skeleton Tracking 人体骨骼检测</p>
+                <p>INPUT:</p>
+                <ul>
+                    <li>
+                        <p>Pulse Sensor 心跳感应器</p>
+                    </li>
+                    <li>
+                        <p>Temperature Sensor 温度感应器</p>
+                    </li>
+                    <li>
+                        <p>Photoelectric sensor 光线感应器</p>
+                    </li>
+                    <li>
+                        <p>Infrared sensor 距离感应器</p>
+                    </li>
+                </ul>
             </li>
             <li>
-                <p>Depth Sensing 深度图像检测</p>
+                <p>OUTPUT:</p>
+                <ul>
+                    <li>
+                        <p>Speaker 声音输出</p>
+                    </li>
+                    <li>
+                        <p>Motor 马达（物理运动）</p>
+                    </li>
+                </ul>
             </li>
         </ul>
-    </li>
-    <li>
-        <p>Camera &amp; OpenCV 摄像头OpenCV</p>
+        <p><img src="dist/images/workshop/kinect samples.jpg" alt="sample image" class="sm-image"/></p>
+        <p><strong>Workshop: Programming Interactivity 工作坊：编写交互性</strong></p>
         <ul>
             <li>
-                <p>Facial Recognition 脸部识别</p>
+                <p>MS Kinect</p>
+                <ul>
+                    <li>
+                        <p>Skeleton Tracking 人体骨骼检测</p>
+                    </li>
+                    <li>
+                        <p>Depth Sensing 深度图像检测</p>
+                    </li>
+                </ul>
             </li>
             <li>
-                <p>Movement Detection 移动检测</p>
-            </li>
-            <li>
-                <p>EEG Sensor 脑波检测</p>
+                <p>Camera &amp; OpenCV 摄像头OpenCV</p>
+                <ul>
+                    <li>
+                        <p>Facial Recognition 脸部识别</p>
+                    </li>
+                    <li>
+                        <p>Movement Detection 移动检测</p>
+                    </li>
+                    <li>
+                        <p>EEG Sensor 脑波检测</p>
+                    </li>
+                </ul>
             </li>
         </ul>
-    </li>
-</ul>
-<p><img src="dist/images/workshop/Screen shot 2011-03-16 at 14.31.38.png" alt="sample image" class="sm-image"/></p>
+        <p><img src="dist/images/workshop/Screen shot 2011-03-16 at 14.31.38.png" alt="sample image" class="sm-image"/></p>
+    </div>
+</div>
+
 
 <h3 id="part-2-project-development-">Part 2: Project Development 项目开发</h3>
 <p>有意参与展览的工作坊参与者，向大家展示自己的项目想法。经过简短的讨论，每个人都可以选择与他人合作，或者独立完成。接下去就是项目的开发，我们会提供技术和想法支持，协调资源。</p>
@@ -156,46 +166,65 @@ permalink: /2017summerworkshop
 <h2 id="about-the-workshop-initiator">About the Workshop Initiator</h2>
 <h2 id="section-4">关于工作坊发起者</h2>
 <hr />
-<h3 id="section-5">Instructor 主讲人</h3>
-<p><strong>Zhenzhen Qi 漆贞贞</strong></p>
-<p>New Media Artist / Educator</p>
-<p>新媒体艺术家，新媒体艺术教育人</p>
-<p>MPS @ New York University, Tisch School of the Arts - ITP</p>
-<p>BS @ UC Berkeley - Mathematics</p>
-<p><img alt="zzq picture" width="160px" src="../dist/images/workshop/zhenzhenperforming.png" /></p>
-<p>哥伦比亚大学艺术教育博士EdD在读 Columbia University, EdD. Doctorate Student</p>
-<p>哥伦比亚大学新媒体兼职讲师 Columbia University, Adjunct Professor</p>
-<p>纽约市立大学新媒体艺术讲师 Baruch College, The City University of New York, Adjunct Professor</p>
-<p>2017纽约创意科技周工作坊主持人 2017 Creative Tech Week Workshop Host</p>
-<p>哥伦比亚大学创意科技课程制定员 Columbia University Creative technology Curriculum Fellow</p>
-<hr/>
-<h3 id="section-6">Partner 伙伴</h3>
-<p><strong>Yang Wang 汪洋</strong></p>
-<p>New Media Artist / Interactive Designer</p>
-<p>新媒体艺术家 / 互动设计师</p>
-<p>郑曦然工作室 技术艺术家 Ian Cheng Studio, Technical Artist</p>
-<p>知名纽约交互设计事务所 <em>Potion</em> 前交互设计师 Former Interaction Designer at New York interactive design firm <em>Potion</em></p>
-<p>HAVAS国际 交互实验室前创意科技师 Former Creative Technologist at HAVAS Worldwide Innovation Lab</p>
-<hr/>
-<h3>商业项目展览 Client Work Exhibitions</h3>
-<p><img src="dist/images/workshop/clientworkszzyw.jpg"/></p>
-<p>July 2017, ArtLens Interactive Exhibition, Cleveland Museum of Art, Cleveland, OH, US</p>
-<p>May 2017, MOMA PS1, Ian Cheng: Emissaries, Queens, NY, US </p>
-<p>Oct. 2016, Innit Interactive Kitchen, Soho Pirch, New York, NY, US</p>
-<p>December 2014, Exhibit: Growth Interactive Exhibition, Director Park, Portland, OR, US</p>
-<hr/>
-<h3 id="art-exhibitions">独立项目展览 Art Exhibitions</h3>
-<p>May, 2017 Knockdown Center, Queens, New York, NY, US</p>
-<p>June, 2016 Chinatown Soup, New York, NY, US</p>
-<p>May, 2016 BHQFU Gallery, Brooklyn, NY, US</p>
-<p>Apr, 2016 BHQFU Gallery, Brooklyn, NY, US Exhibit: Calm Before/After the Storm</p>
-<p>Aug, 2015 Governor’s Island, New York, NY, US Governor’s Island Art Festival</p>
-<p>June, 2015 Saranac Gallery, Spokane, WA, US</p>
-<p>May, 2015 The Laboratory Gallery, Spokane, WA, US</p>
-<p>July, 2015 FLEX Gallery, Shanghai, China Exhibit: The Introspective Game</p>
-<p>Sep,2014 Microsoft, New York, NY NYC Media Lab - The Future Interfaces</p>
-<p>July, 2013 Alys Beach, FL, US Digital Graffiti Festival</p>
-<hr />
+
+<div class="row">
+    <div class="col-xs-12 col-sm-6">
+        <h3 id="section-5">Instructor 主讲人</h3>
+        <p><strong>Zhenzhen Qi 漆贞贞</strong></p>
+        <p>New Media Artist / Educator</p>
+        <p>新媒体艺术家，新媒体艺术教育人</p>
+        <p>MPS @ New York University, Tisch School of the Arts - ITP</p>
+        <p>BS @ UC Berkeley - Mathematics</p>
+        <p><img alt="zzq picture" width="160px" src="../dist/images/workshop/zhenzhenperforming.png" /></p>
+        <p>哥伦比亚大学艺术教育博士EdD在读 Columbia University, EdD. Doctorate Student</p>
+        <p>哥伦比亚大学新媒体兼职讲师 Columbia University, Adjunct Professor</p>
+        <p>纽约市立大学新媒体艺术讲师 Baruch College, The City University of New York, Adjunct Professor</p>
+        <p>2017纽约创意科技周工作坊主持人 2017 Creative Tech Week Workshop Host</p>
+        <p>哥伦比亚大学创意科技课程制定员 Columbia University Creative technology Curriculum Fellow</p>
+        <hr/>
+    </div>
+
+    <div class="col-xs-12 col-sm-6">
+        <h3 id="section-6">Partner 伙伴</h3>
+        <p><strong>Yang Wang 汪洋</strong></p>
+        <p>New Media Artist / Interactive Designer</p>
+        <p>新媒体艺术家 / 互动设计师</p>
+        <p>郑曦然工作室 技术艺术家 Ian Cheng Studio, Technical Artist</p>
+        <p>知名纽约交互设计事务所 <em>Potion</em> 前交互设计师 Former Interaction Designer at New York interactive design firm <em>Potion</em></p>
+        <p>HAVAS国际 交互实验室前创意科技师 Former Creative Technologist at HAVAS Worldwide Innovation Lab</p>
+        <hr/>
+
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-6">
+        <h3>商业项目展览 Client Work Exhibitions</h3>
+        <p><img src="dist/images/workshop/clientworkszzyw.jpg"/></p>
+        <p>July 2017, ArtLens Interactive Exhibition, Cleveland Museum of Art, Cleveland, OH, US</p>
+        <p>May 2017, MOMA PS1, Ian Cheng: Emissaries, Queens, NY, US </p>
+        <p>Oct. 2016, Innit Interactive Kitchen, Soho Pirch, New York, NY, US</p>
+        <p>December 2014, Exhibit: Growth Interactive Exhibition, Director Park, Portland, OR, US</p>
+        <hr/>
+    </div>
+
+    <div class="col-xs-12 col-sm-6">
+        <h3 id="art-exhibitions">独立项目展览 Art Exhibitions</h3>
+        <p>May, 2017 Knockdown Center, Queens, New York, NY, US</p>
+        <p>June, 2016 Chinatown Soup, New York, NY, US</p>
+        <p>May, 2016 BHQFU Gallery, Brooklyn, NY, US</p>
+        <p>Apr, 2016 BHQFU Gallery, Brooklyn, NY, US Exhibit: Calm Before/After the Storm</p>
+        <p>Aug, 2015 Governor’s Island, New York, NY, US Governor’s Island Art Festival</p>
+        <p>June, 2015 Saranac Gallery, Spokane, WA, US</p>
+        <p>May, 2015 The Laboratory Gallery, Spokane, WA, US</p>
+        <p>July, 2015 FLEX Gallery, Shanghai, China Exhibit: The Introspective Game</p>
+        <p>Sep,2014 Microsoft, New York, NY NYC Media Lab - The Future Interfaces</p>
+        <p>July, 2013 Alys Beach, FL, US Digital Graffiti Festival</p>
+        <hr />
+    </div>
+</div>
+
+
 <h3 id="press">媒体 Press</h3>
 <p>June, 2016 <a href="https://beautifulbizarre.net/2016/06/11/mind-ocean-interview-zzyw-studio/">Beautiful Bizarre</a></p>
 <p>June, 2015 <a href="http://flamingogroup.com/video-ics-interviews-flex-artists-wang-yang-and-qi-zhenzhen/p8">Shanghai International Channel Interview</a></p>
