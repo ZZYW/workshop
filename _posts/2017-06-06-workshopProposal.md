@@ -2,7 +2,7 @@
 layout: clean
 permalink: /2017summerworkshop
 ---
-
+<div class="row"><div class="col-xs-12 col-sm-offset-1 col-sm-10">
 <div class="workshop-page">
 <h4 id="for-more-information-about-the-hosts-zhenzhen-qi--yang-wang-go-back-to-zzyw-homepage">for more information about the hosts Zhenzhen Qi &amp; Yang Wang, <a href="/">Go back to zzyw homepage</a></h4>
 <hr />
@@ -62,7 +62,7 @@ permalink: /2017summerworkshop
                 <p>有趣的新媒体作品</p>
             </li>
         </ul>
-        <p><img src="dist/images/workshop/l_4.png" alt="sample image" class="sm-image"/></p>
+        <p><img src="dist/images/workshop/giphy.gif" alt="sample image" class="sm-image"/></p>
         <p><strong>Workshop: Generative Arts 工作坊：生成艺术</strong></p>
         <ul>
             <li>
@@ -230,3 +230,5 @@ permalink: /2017summerworkshop
 <p>June, 2015 <a href="http://flamingogroup.com/video-ics-interviews-flex-artists-wang-yang-and-qi-zhenzhen/p8">Shanghai International Channel Interview</a></p>
 <p>May, 2015 Spoksman Review Article <a href="http://www.spokesman.com/stories/2015/may/21/out-of-body-experience/">“Out of Body Experience”</a></p>
 </div>
+
+</div></div>
