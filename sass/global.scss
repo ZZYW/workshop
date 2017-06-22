@@ -1,122 +1,76 @@
-body {
-  font-family: $body-font;
-  padding-left: $body-left-padding;
-  padding-top: $body-top-padding;
-  font-size: $base-font-size;
-  @media (min-width: $screen-sm-min) {
-    padding-right: 0;
-  }
-  @media (max-width: $screen-sm-min){
-    padding-top: $body-top-padding-mobile;
-  }
-  padding-right: $body-left-padding;
-  min-height: 100vh;
+$highlightColor: #0000FE;
+html {
+    font-family: sans-serif;
+}
+
+a {
+    color: $highlightColor;
 }
 
 img {
-    max-width: 100%;
-}
-a {
-  font-style: italic;
-  color: $link-color;
+  max-width: 100%;
 }
 
+h1,
+h2,
+h3 {
+    color: $highlightColor;
+    font-weight: 400;
+}
 
 p {
-  font-size: 14px;
-  // font-family: $p-font;
+    font-size: 1.3rem;
+    padding-left: 4em;
 }
 
-li {
-  padding-left: 0;
-  list-style: none;
+h2 {
+    margin-top: 100px;
+    font-size: 30px;
+    letter-spacing: -0.03em;
+    // font-weight: 100;
 }
 
-a.active, a:hover {
-  color: $color_highlight !important;
+.sm-image {
+    width: 600px;
+    max-width: 100%;
 }
 
-h3 {
-    font-size: 16px;
-}
-
-h3.page-title{
-  font-weight: 800;
-  font-size: 80px;
-  line-height: 1em;
-  color: $color_black;
-  letter-spacing: -5.61px;
-  position: fixed;
-  top: -0.3em;
-  font-weight: 900;
-  margin-top: 0;
-  @media(max-width: $screen-md-min) {
-    font-size: 65px;
-    letter-spacing: -3px;
-  }
-  .page-date {
-    font-size: 20px;
-    display: inline-block;
-    letter-spacing: 0;
-    margin-left: 1em;
-    line-height: 1em;
-  }
-  .page-cat{
-    letter-spacing: 0;
-    line-height: 1em;
-    text-transform: capitalize;
-  }
-}
-
-/*
-*************
-Main Nav
-*************
-*/
-
-.nav {
-  @media (max-width: $screen-sm-min){
-    background-color: white;
-    z-index: 100;
-  }
-  font-family: sans-serif;
-  position: fixed;
-  bottom: $body-bottom-padding;
-  left: $body-left-padding;
-
-  h2 {
-    font-weight: normal;
-    font-size: 2rem;
-    color: $color_black;
-  }
-
-  .site-title {
-    h1 {
-      font-weight: 800;
-      font-size: 4rem;
-      color: $color_black;
-      letter-spacing: -0.92px;
-      line-height: 65px;
+.titleblock {
+    // background-image: url("/dist/images/workshop/giphy.gif");
+    background-image: url("/dist/images/sfpcgenerative.gif");
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    background-position: center center;
+    .content {
+        color: white;
+        left: 70px;
+        // font-size: 3em;
+        bottom: 30px;
+        z-index: 10;
+        position: absolute;
+        background-color: $highlightColor;
+        padding: 1em;
+        @media (max-width: 771.99px) {
+            text-align: center;
+            left: auto;
+            right: auto;
+            top: 33%;
+            bottom: auto;
+            // background-color: rgba(0,0,0,0);
+        }
     }
-  }
-
-  .clients {
+    h1,
     h2 {
-      margin-bottom: 2px;
+        color: #fff;
+        margin-top: 0;
+        line-height: 1em;
+        font-weight: normal;
     }
-  }
-
-  .about {
-    position: absolute;
-    bottom: 54px;
-    left: 0;
-  }
-
-  li {
-    a {
-      font-size: 14px;
-      font-weight: normal;
-      color: $color_black;
+    h1 {
+        font-size: 18px;
     }
-  }
+    h2 {
+        font-size: 12px;
+    }
 }

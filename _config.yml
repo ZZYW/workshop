@@ -16,6 +16,3 @@ author: zzyw
 
 # Build settings
 markdown: kramdown
-
-
-exclude: [node_modules]
