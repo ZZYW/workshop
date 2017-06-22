@@ -4,7 +4,7 @@ title: zzyw
 email: hi@zzywstudio.com
 # description: "zzyw is a new york based design & technology studio"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "workshop.zzywstudio.com" # the base hostname & protocol for your site
+url: "http://workshop.zzywstudio.com" # the base hostname & protocol for your site
 author: zzyw
 
 
