@@ -1,1 +1,1 @@
-$(document).ready(function(){console.log(":)"),$(".client-work-slides").slick({autoplay:!0,fade:!0,autoplaySpeed:8e3,swipe:!0,touchMove:!0,adaptiveHeight:!0})});
+$(document).ready(function(){console.log(":)"),$(".client-work-slides, .personal-work-slides").slick({autoplay:!0,fade:!0,autoplaySpeed:8e3,swipe:!0,touchMove:!0,adaptiveHeight:!0})});

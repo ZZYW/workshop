@@ -42,15 +42,16 @@ title: "关于工作坊发起人"
     <div class="client-work-slides">
       
             {% for image in site.static_files  %}
+         
             {% if image.path contains 'images/clientworks/' %}
             {% if image.extname == '.jpg' or image.extname == '.jpeg' or image.extname == '.JPG' or image.extname == '.JPEG' or image.extname == '.png' or image.extname == '.PNG' or image.extname == '.gif' %}
-          
-            <div>
-            <img src="{{ image.path }}"/>
-            <p>{{ image.name }}</p>
+             <div>
+                <img src="{{ image.path }}"/>
             </div>
+       
             {% endif %}
             {% endif %}
+          
             {% endfor %}
       
     </div>
@@ -62,6 +63,23 @@ title: "关于工作坊发起人"
   </div>
   <div class="col-xs-12">
     <h3 id="art-exhibitions">独立项目展览 Art Exhibitions</h3>
+        <div class="personal-work-slides">
+      
+            {% for image in site.static_files  %}
+         
+            {% if image.path contains 'images/personalworks/' %}
+            {% if image.extname == '.jpg' or image.extname == '.jpeg' or image.extname == '.JPG' or image.extname == '.JPEG' or image.extname == '.png' or image.extname == '.PNG' or image.extname == '.gif' %}
+             <div>
+                <img src="{{ image.path }}"/>
+            </div>
+       
+            {% endif %}
+            {% endif %}
+          
+            {% endfor %}
+      
+    </div>
+
     <p>May, 2017 Knockdown Center, Queens, New York, NY, US</p>
     <p>June, 2016 Chinatown Soup, New York, NY, US</p>
     <p>May, 2016 BHQFU Gallery, Brooklyn, NY, US</p>
