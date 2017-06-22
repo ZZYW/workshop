@@ -9,10 +9,18 @@
 title: zzyw
 email: hi@zzywstudio.com
 # description: "zzyw is a new york based design & technology studio"
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "localhost:4000" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://localhost:4000" # the base hostname & protocol for your site
 author: zzyw
 
 
 # Build settings
 markdown: kramdown
+
+
+efaults:
+  - scope:
+      path: "dist/images"
+    values:
+      image: true
+

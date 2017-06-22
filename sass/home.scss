@@ -1,16 +1,14 @@
-
 .titleblock {
     // background-image: url("/dist/images/workshop/giphy.gif");
-    background-image: url("/dist/images/sfpcgenerative.gif");
+    background-image: url("/images/sfpcgenerative.gif");
     background-size: cover;
-    height: 600px;
+    height: 500px;
     position: relative;
     background-position: center center;
     .content {
         color: white;
-        left: 70px;
-        // font-size: 3em;
-        bottom: 30px;
+        left: 50px;
+        bottom: 50px;
         z-index: 10;
         position: absolute;
         background-color: $highlightColor;
@@ -21,20 +19,12 @@
             right: auto;
             top: 33%;
             bottom: auto;
-            // background-color: rgba(0,0,0,0);
         }
-    }
-    h1,
-    h2 {
-        color: #fff;
-        margin-top: 0;
-        line-height: 1em;
-        font-weight: normal;
-    }
-    h1 {
-        font-size: 18px;
-    }
-    h2 {
-        font-size: 12px;
+        .title {
+            font-size: 1.6em
+        }
+        .caption {
+            font-size: 1.2em;
+        }
     }
 }

@@ -1,7 +1,81 @@
 ---
 layout: master
 permalink: /about
+title: "关于工作坊发起人"
 ---
+<h4 id="for-more-information-about-the-hosts-zhenzhen-qi--yang-wang-go-back-to-zzyw-homepage">for more information about the hosts Zhenzhen Qi &amp; Yang Wang, <a href="/">Go back to zzyw homepage</a></h4>
+<hr />
+<div class="row">
+  <div class="col-xs-12 col-sm-6">
+    <h3>Zhenzhen Qi 漆贞贞</h3>
+    <h4>New Media Artist / Educator<br>新媒体艺术家，新媒体艺术教育人</h4>
+    <p>
+        EdD Candidate @ Columbia University, Teacher's College
+        <br>MPS @ New York University, Tisch School of the Arts - ITP
+        <br>BS @ University of California, Berkeley - Mathematics
+    </p>
 
-asfdfdsfaddsdsfasfrfra
-
+    <p><img alt="zzq picture" width="160px" src="../images/zhenzhenperforming.png" /></p>
+    <p>哥伦比亚大学新媒体兼职讲师 Columbia University, Adjunct Professor</p>
+    <p>纽约市立大学新媒体艺术讲师 Baruch College, The City University of New York, Adjunct Professor</p>
+    <p>2017纽约创意科技周工作坊主持人 2017 Creative Tech Week Workshop Host</p>
+    <p>哥伦比亚大学创意科技课程制定员 Columbia University Creative technology Curriculum Fellow</p>
+  </div>
+  <div class="col-xs-12 col-sm-6">
+    <h3>Yang Wang 汪洋</h3>
+    <h4>New Media Artist / Creative Technologist / Interactive Designer<br>
+        新媒体艺术家 / 创意科技师 / 互动设计师</h4>
+    <p>MPS @ New York University, Tisch School of the Arts - ITP
+    <br>BA @ University of Science & Technology, Beijing - Artistic Design</p>
+    
+    <p><img width="180px" src="../images/yw.jpg"/></p>
+    <p>郑曦然工作室 技术艺术家 Ian Cheng Studio, Technical Artist</p>
+    <p>纽约博物馆交互装置设计事务所 <em>Potion</em> 前交互设计师 Former Interaction Designer at New York interactive design firm <em>Potion</em></p>
+    <p>HAVAS国际 交互实验室前创意科技师 Former Creative Technologist at HAVAS Worldwide Innovation Lab</p>
+  </div>
+</div>
+<hr>
+<div class="row">
+  <div class="col-xs-12">
+    <h3>商业合作项目 Client Work Exhibitions</h3>
+    <!-- <p><img src="images/clientworkszzyw.jpg" /></p> -->
+    <div class="client-work-slides">
+      
+            {% for image in site.static_files  %}
+            {% if image.path contains 'images/clientworks/' %}
+            {% if image.extname == '.jpg' or image.extname == '.jpeg' or image.extname == '.JPG' or image.extname == '.JPEG' or image.extname == '.png' or image.extname == '.PNG' or image.extname == '.gif' %}
+          
+            <div>
+            <img src="{{ image.path }}"/>
+            <p>{{ image.name }}</p>
+            </div>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+      
+    </div>
+    <p>July 2017, ArtLens Interactive Exhibition, Cleveland Museum of Art, Cleveland, OH, US</p>
+    <p>May 2017, MOMA PS1, Ian Cheng: Emissaries, Queens, NY, US </p>
+    <p>Oct. 2016, Innit Interactive Kitchen, Soho Pirch, New York, NY, US</p>
+    <p>December 2014, Exhibit: Growth Interactive Exhibition, Director Park, Portland, OR, US</p>
+    <hr/>
+  </div>
+  <div class="col-xs-12">
+    <h3 id="art-exhibitions">独立项目展览 Art Exhibitions</h3>
+    <p>May, 2017 Knockdown Center, Queens, New York, NY, US</p>
+    <p>June, 2016 Chinatown Soup, New York, NY, US</p>
+    <p>May, 2016 BHQFU Gallery, Brooklyn, NY, US</p>
+    <p>Apr, 2016 BHQFU Gallery, Brooklyn, NY, US Exhibit: Calm Before/After the Storm</p>
+    <p>Aug, 2015 Governor’s Island, New York, NY, US Governor’s Island Art Festival</p>
+    <p>June, 2015 Saranac Gallery, Spokane, WA, US</p>
+    <p>May, 2015 The Laboratory Gallery, Spokane, WA, US</p>
+    <p>July, 2015 FLEX Gallery, Shanghai, China Exhibit: The Introspective Game</p>
+    <p>Sep,2014 Microsoft, New York, NY NYC Media Lab - The Future Interfaces</p>
+    <p>July, 2013 Alys Beach, FL, US Digital Graffiti Festival</p>
+    <hr />
+  </div>
+</div>
+<h3 id="press">媒体 Press</h3>
+<p>June, 2016 <a href="https://beautifulbizarre.net/2016/06/11/mind-ocean-interview-zzyw-studio/">Beautiful Bizarre</a></p>
+<p>June, 2015 <a href="http://flamingogroup.com/video-ics-interviews-flex-artists-wang-yang-and-qi-zhenzhen/p8">Shanghai International Channel Interview</a></p>
+<p>May, 2015 Spoksman Review Article <a href="http://www.spokesman.com/stories/2015/may/21/out-of-body-experience/">“Out of Body Experience”</a></p>

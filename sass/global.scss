@@ -1,6 +1,8 @@
 $highlightColor: #0000FE;
-html {
+body {
+    padding-top: 30px;
     font-family: sans-serif;
+    font-size: 14px;
 }
 
 a {
@@ -8,30 +10,34 @@ a {
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
 h1,
 h2,
-h3 {
-    color: $highlightColor;
+h3,
+h4,
+h5,
+h6 {
     font-weight: 400;
+    color: $highlightColor;
 }
 
-p {
-    font-size: 1.3rem;
-    padding-left: 4em;
+hr {
+    border: none;
+    color: $highlightColor;
+    &::after {
+        content: "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"
+    }
 }
 
-h2 {
-    margin-top: 100px;
-    font-size: 30px;
-    letter-spacing: -0.03em;
-    // font-weight: 100;
-}
 
-.sm-image {
-    width: 600px;
-    max-width: 100%;
-}
+.slick-arrow {
 
+    background: $highlightColor;
+    box-shadow: none;
+    border: none;
+    
+    color: #fff;
+  
+}
