@@ -12,9 +12,5 @@ author: zzyw
 markdown: kramdown
 
 
-efaults:
-  - scope:
-      path: "dist/images"
-    values:
-      image: true
-
+collections:
+- exhibitions

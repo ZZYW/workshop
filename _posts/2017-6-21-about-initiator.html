@@ -63,33 +63,27 @@ title: "关于工作坊发起人"
   </div>
   <div class="col-xs-12">
     <h3 id="art-exhibitions">独立项目展览 Art Exhibitions</h3>
-        <div class="personal-work-slides">
-      
-            {% for image in site.static_files  %}
-         
-            {% if image.path contains 'images/personalworks/' %}
-            {% if image.extname == '.jpg' or image.extname == '.jpeg' or image.extname == '.JPG' or image.extname == '.JPEG' or image.extname == '.png' or image.extname == '.PNG' or image.extname == '.gif' %}
-             <div>
-                <img src="{{ image.path }}"/>
-            </div>
-       
-            {% endif %}
-            {% endif %}
-          
-            {% endfor %}
-      
-    </div>
+    <div class="personal-work-slides">
+  
+        {% for image in site.static_files  %}
+        {% if image.path contains 'images/personalworks/' %}
+        {% if image.extname == '.jpg' or image.extname == '.jpeg' or image.extname == '.JPG' or image.extname == '.JPEG' or image.extname == '.png' or image.extname == '.PNG' or image.extname == '.gif' %}
 
-    <p>May, 2017 Knockdown Center, Queens, New York, NY, US</p>
-    <p>June, 2016 Chinatown Soup, New York, NY, US</p>
-    <p>May, 2016 BHQFU Gallery, Brooklyn, NY, US</p>
-    <p>Apr, 2016 BHQFU Gallery, Brooklyn, NY, US Exhibit: Calm Before/After the Storm</p>
-    <p>Aug, 2015 Governor’s Island, New York, NY, US Governor’s Island Art Festival</p>
-    <p>June, 2015 Saranac Gallery, Spokane, WA, US</p>
-    <p>May, 2015 The Laboratory Gallery, Spokane, WA, US</p>
-    <p>July, 2015 FLEX Gallery, Shanghai, China Exhibit: The Introspective Game</p>
-    <p>Sep,2014 Microsoft, New York, NY NYC Media Lab - The Future Interfaces</p>
-    <p>July, 2013 Alys Beach, FL, US Digital Graffiti Festival</p>
+         <div>
+            <img src="{{ image.path }}"/>
+        </div>
+   
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+  
+    </div>
+    {% for ex in site.exhibitions reversed %}
+    <div class="personal-work">
+        <p>{{ ex.date | date: "%B %Y" }}, <i>{{ ex.projectname }}</i><br>{{ ex.location }}</p>
+    </div>
+    {% endfor %}
+
     <hr />
   </div>
 </div>
