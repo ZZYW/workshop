@@ -1,12 +1,19 @@
 #main-menu {
-	position: fixed;
-	font-size: 1em;
-	padding: 1em;
-	a {
-		display: block;
-		margin-bottom: 0.8em;
-		@media (max-width: 779px){
-			
-		}
-	}
+    position: fixed;
+    font-size: 1em;
+    padding: 1em;
+    background-color: $highlightColor;
+    z-index: 100;
+    @media (max-width: 767.9999999px) {
+        padding: 0;
+    }
+    a {
+        color: #fff;
+        display: block;
+        margin-bottom: 0.8em;
+        @media (max-width: 767.9999999px) {
+            display: inline-block;
+            margin-right: 0.4em;
+        }
+    }
 }
