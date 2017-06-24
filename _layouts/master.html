@@ -11,7 +11,9 @@
         {% include menu.html %}
       </div>
       <div class="col-xs-12 col-sm-9">
+        {% if page.title %}
         <h2>> {{ page.title }}</h2>
+        {% endif %}
         {{ content }}
       </div>
     </div>
