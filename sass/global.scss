@@ -27,19 +27,18 @@ h6 {
 }
 
 hr {
-    border: none;
-    color: $highlightColor;
+    border: 3.5px solid $highlightColor;
+    // height: 6px;
+    // width: 100%;
+    // color: $highlightColor;
     &::after {
-        content: "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"
+        // content: "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<"
     }
 }
 
-
-
 .content {
-    border-top: 7px solid $highlightColor;
     @media (max-width: 767.9999999px) {
-        margin-top: 100px;
+        margin-top: 120px;
     }
 }
 

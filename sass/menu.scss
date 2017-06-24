@@ -4,9 +4,7 @@
     padding: 1em;
     background-color: $highlightColor;
     z-index: 100;
-    @media (max-width: 767.9999999px) {
-        padding: 0;
-    }
+    @media (max-width: 767.9999999px) {}
     a {
         color: #fff;
         display: block;
