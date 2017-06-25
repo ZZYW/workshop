@@ -1,30 +1,25 @@
-.titleblock {
-    // background-image: url("/dist/images/workshop/giphy.gif");
-    background-image: url("/images/sfpcgenerative.gif");
-    background-size: cover;
-    height: 500px;
-    position: relative;
-    background-position: center center;
-    .content {
-        color: white;
-        left: 50px;
-        bottom: 50px;
-        z-index: 10;
-        position: absolute;
-        background-color: $highlightColor;
+.home {
+    img {
+        width: 100%;
+    }
+    // @media (max-width: 767.99999px) {
+    //     text-align: center;
+    //     left: auto;
+    //     right: auto;
+    //     top: 33%;
+    //     bottom: auto;
+    // }
+    .textblock {
         padding: 1em;
-        @media (max-width: 767.99999px) {
-            text-align: center;
-            left: auto;
-            right: auto;
-            top: 33%;
-            bottom: auto;
-        }
+        color: $highlightColor;
+        // color: #fff;
+
         .title {
-            font-size: 1.6em
+            font-size: 2rem;
         }
-        .caption {
-            font-size: 1.2em;
+        .caotion {
+            font-size: 8.0rem;
         }
     }
+  
 }
